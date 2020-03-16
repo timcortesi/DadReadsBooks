@@ -17,8 +17,12 @@ draw_book = function() {
         "page":window.state.book.pages[state.index],
         "book":window.state.book
     }))
-    window.audio.src = "assets/books/"+window.state.book.slug+"/audio/"+window.state.book.pages[state.index].audio;
-    window.audio.play();
+    if (typeof window.state.book.pages[state.index].audio != 'undefined') {
+        window.audio.src = "assets/books/"+window.state.book.slug+"/audio/"+window.state.book.pages[state.index].audio;
+        window.audio.play();
+    } else {
+        $('#turn-page-forward').css("color","yellow");
+    }
 }
 init_book = function(e) {
     window.state.index = 0;
