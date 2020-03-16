@@ -22,7 +22,9 @@ main_template = `
 
 book_template = `
 <div style="width:100%;text-align:center;">
+    {{#page.image}}
     <img class="book-page" src="assets/books/{{book.slug}}/images/{{page.image}}">
+    {{/page.image}}
 </div>
 <div id="turn-page-forward" class="navbutton"><i class="fas fa-arrow-circle-right"></i></div>
 <div id="turn-page-back" class="navbutton"><i class="fas fa-arrow-circle-left"></i></div>

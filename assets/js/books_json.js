@@ -55,7 +55,8 @@ window.books = [
             {"image":"020.jpeg","audio":"020.m4a"},
             {"image":"021.jpeg","audio":"021.m4a"},
             {"image":"022.jpeg","audio":"022.m4a"},
-            {"image":"023.jpeg","audio":"023.m4a"}
+            {"image":"023.jpeg","audio":"023.m4a"},
+            {"audio":"024.m4a"}
         ]
     },
     {
