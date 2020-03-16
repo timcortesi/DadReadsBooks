@@ -34,6 +34,7 @@ window.books = [
         "slug":"wild_things",
         "cover":"cover.jpeg",
         "pages": [
+            {"image":"001.jpeg","audio":"001.m4a"},
             {"image":"002.jpeg","audio":"002.m4a"},
             {"image":"003.jpeg","audio":"003.m4a"},
             {"image":"004.jpeg","audio":"004.m4a"},
