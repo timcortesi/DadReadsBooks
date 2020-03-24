@@ -3,8 +3,8 @@ document.ontouchmove = function(event){
 }
 window.state = {};
 window.tocca({
-    "tapThreshold": 1000,
-    "longtapThreshold":2000
+    "tapThreshold": 200,
+    "longtapThreshold":1000
 })
 
 draw_main = function() {
