@@ -2,10 +2,10 @@ document.ontouchmove = function(event){
     event.preventDefault();
 }
 window.state = {};
-window.tocca({
-    "tapThreshold": 200,
-    "longtapThreshold":1000
-})
+// window.tocca({
+//     "tapThreshold": 200,
+//     "longtapThreshold":1000
+// })
 
 draw_main = function() {
     window.audio.pause();
