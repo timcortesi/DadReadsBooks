@@ -21,7 +21,7 @@ draw_book = function() {
         window.audio.src = "assets/books/"+window.state.book.slug+"/audio/"+window.state.book.pages[state.index].audio;
         window.audio.play();
     } else {
-        $('#turn-page-forward').css("color","yellow");
+        $('#turn-page-forward').css("color","#ee8");
     }
 }
 init_book = function(e) {
@@ -51,7 +51,7 @@ turn_page_back = function(e) {
 $( document ).ready(function() {
     window.audio = new Audio();
     window.audio.addEventListener("ended", function() {
-        $('#turn-page-forward').css("color","yellow");
+        $('#turn-page-forward').css("color","#ee8");
     });
     draw_main();
     if ('ontouchstart' in document.documentElement) {

@@ -38,7 +38,8 @@ body {
     z-index:10;
     font-size: 50px;
     text-align: center;
-    color:#ddd;
+    color:#888;
+    opacity:0.6;
 }
 #turn-page-forward {
     right:5vw;
