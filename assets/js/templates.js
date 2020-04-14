@@ -1,5 +1,5 @@
 main_template = `
-<div class="container-fluid">
+<div class="container-fluid" style="height:100vh;overflow:auto;">
     <div class="row">
         <div class="col-sm-12">
             <h3 class="main-title">Dad Reads Books</h3>

@@ -1,5 +1,72 @@
 window.books = [
     {
+        "title":"BB Too Much Teasing",
+        "slug":"bb_teasing",
+        "cover":"cover.jpeg",
+        "pages": [
+            {"image":"001.jpeg"},
+            {"image":"002.jpeg"},
+            {"image":"003.jpeg"},
+            {"image":"004.jpeg"},
+            {"image":"005.jpeg"},
+            {"image":"006.jpeg"},
+            {"image":"007.jpeg"},
+            {"image":"008.jpeg"},
+            {"image":"009.jpeg"},
+            {"image":"010.jpeg"},
+            {"image":"011.jpeg"},
+            {"image":"012.jpeg"},
+            {"image":"013.jpeg"},
+            {"image":"014.jpeg"},
+            {"image":"015.jpeg"},
+            {"image":"016.jpeg"},
+            {"image":"017.jpeg"},
+            {"image":"018.jpeg"},
+            {"image":"019.jpeg"},
+            {"image":"020.jpeg"},
+            {"image":"021.jpeg"},
+            {"image":"022.jpeg"},
+            {"image":"023.jpeg"},
+            {"image":"024.jpeg"},
+            {"image":"025.jpeg"},
+            {"image":"026.jpeg"}
+        ]
+    },
+    {
+        "title":"BB Get The Screamies",
+        "slug":"bb_screaming",
+        "cover":"cover.jpeg",
+        "pages": [
+            {"image":"001.jpeg"},
+            {"image":"002.jpeg"},
+            {"image":"003.jpeg"},
+            {"image":"004.jpeg"},
+            {"image":"005.jpeg"},
+            {"image":"006.jpeg"},
+            {"image":"007.jpeg"},
+            {"image":"008.jpeg"},
+            {"image":"009.jpeg"},
+            {"image":"010.jpeg"}
+        ]
+    },
+    {
+        "title":"BB Get The Noises",
+        "slug":"bb_noises",
+        "cover":"cover.jpeg",
+        "pages": [
+            {"image":"001.jpeg"},
+            {"image":"002.jpeg"},
+            {"image":"003.jpeg"},
+            {"image":"004.jpeg"},
+            {"image":"005.jpeg"},
+            {"image":"006.jpeg"},
+            {"image":"007.jpeg"},
+            {"image":"008.jpeg"},
+            {"image":"009.jpeg"},
+            {"image":"010.jpeg"}
+        ]
+    },
+    {
         "title":"BB Seashore Treasure",
         "slug":"bb_seashore_treasure",
         "cover":"cover.jpeg",
