@@ -1,5 +1,43 @@
 window.books = [
     {
+        "title":"Green Eggs & Ham",
+        "slug":"green_eggs_ham",
+        "cover":"cover.jpeg",
+        "pages": [
+            {"image":"001.jpeg"},
+            {"image":"002.jpeg"},
+            {"image":"003.jpeg"},
+            {"image":"004.jpeg"},
+            {"image":"005.jpeg"},
+            {"image":"006.jpeg"},
+            {"image":"007.jpeg"},
+            {"image":"008.jpeg"},
+            {"image":"009.jpeg"},
+            {"image":"010.jpeg"},
+            {"image":"011.jpeg"},
+            {"image":"012.jpeg"},
+            {"image":"013.jpeg"},
+            {"image":"014.jpeg"},
+            {"image":"015.jpeg"},
+            {"image":"016.jpeg"},
+            {"image":"017.jpeg"},
+            {"image":"018.jpeg"},
+            {"image":"019.jpeg"},
+            {"image":"020.jpeg"},
+            {"image":"021.jpeg"},
+            {"image":"022.jpeg"},
+            {"image":"023.jpeg"},
+            {"image":"024.jpeg"},
+            {"image":"025.jpeg"},
+            {"image":"026.jpeg"},
+            {"image":"027.jpeg"},
+            {"image":"028.jpeg"},
+            {"image":"029.jpeg"},
+            {"image":"030.jpeg"},
+            {"image":"031.jpeg"}
+        ]
+    },
+    {
         "title":"Horton Hears A Who",
         "slug":"horton",
         "cover":"cover.jpeg",
@@ -74,6 +112,36 @@ window.books = [
             {"image":"030.jpeg"},
             {"image":"031.jpeg"},
             {"image":"032.jpeg"}
+        ]
+    },
+    {
+        "title":"Oh The Places You'll Go",
+        "slug":"oh_the_places_youll_go",
+        "cover":"cover.jpeg",
+        "pages": [
+            {"image":"001.jpeg","audio":"001.m4a"},
+            {"image":"002.jpeg","audio":"002.m4a"},
+            {"image":"003.jpeg","audio":"003.m4a"},
+            {"image":"004.jpeg","audio":"004.m4a"},
+            {"image":"005.jpeg","audio":"005.m4a"},
+            {"image":"006.jpeg","audio":"006.m4a"},
+            {"image":"007.jpeg","audio":"007.m4a"},
+            {"image":"008.jpeg","audio":"008.m4a"},
+            {"image":"009.jpeg","audio":"009.m4a"},
+            {"image":"010.jpeg","audio":"010.m4a"},
+            {"image":"011.jpeg","audio":"011.m4a"},
+            {"image":"012.jpeg","audio":"012.m4a"},
+            {"image":"013.jpeg","audio":"013.m4a"},
+            {"image":"014.jpeg","audio":"014.m4a"},
+            {"image":"015.jpeg","audio":"015.m4a"},
+            {"image":"016.jpeg","audio":"016.m4a"},
+            {"image":"017.jpeg","audio":"017.m4a"},
+            {"image":"018.jpeg","audio":"018.m4a"},
+            {"image":"019.jpeg","audio":"019.m4a"},
+            {"image":"020.jpeg","audio":"020.m4a"},
+            {"image":"021.jpeg","audio":"021.m4a"},
+            {"image":"022.jpeg","audio":"022.m4a"},
+            {"image":"023.jpeg","audio":"023.m4a"}
         ]
     },
     {
@@ -190,6 +258,32 @@ window.books = [
         ]
     },
     {
+        "title":"BB Substitute Teacher",
+        "slug":"bb_sub",
+        "cover":"cover.jpeg",
+        "pages": [
+            {"image":"001.jpeg"},
+            {"image":"002.jpeg"},
+            {"image":"003.jpeg"},
+            {"image":"004.jpeg"},
+            {"image":"005.jpeg"},
+            {"image":"006.jpeg"},
+            {"image":"007.jpeg"},
+            {"image":"008.jpeg"},
+            {"image":"009.jpeg"},
+            {"image":"010.jpeg"},
+            {"image":"011.jpeg"},
+            {"image":"012.jpeg"},
+            {"image":"013.jpeg"},
+            {"image":"014.jpeg"},
+            {"image":"015.jpeg"},
+            {"image":"016.jpeg"},
+            {"image":"017.jpeg"},
+            {"image":"018.jpeg"},
+            {"image":"019.jpeg"}
+        ]
+    },
+    {
         "title":"BB To The Rescue",
         "slug":"bb_rescue",
         "cover":"cover.jpeg",
@@ -210,6 +304,28 @@ window.books = [
             {"image":"014.jpeg"},
             {"image":"015.jpeg"},
             {"image":"016.jpeg"}
+        ]
+    },
+    {
+        "title":"BB Shoot The Rapids",
+        "slug":"bb_rapids",
+        "cover":"cover.jpeg",
+        "pages": [
+            {"image":"001.jpeg"},
+            {"image":"002.jpeg"},
+            {"image":"003.jpeg"},
+            {"image":"004.jpeg"},
+            {"image":"005.jpeg"},
+            {"image":"006.jpeg"},
+            {"image":"007.jpeg"},
+            {"image":"008.jpeg"},
+            {"image":"009.jpeg"},
+            {"image":"010.jpeg"},
+            {"image":"011.jpeg"},
+            {"image":"012.jpeg"},
+            {"image":"013.jpeg"},
+            {"image":"014.jpeg"},
+            {"image":"015.jpeg"}
         ]
     },
     {
@@ -279,36 +395,6 @@ window.books = [
             {"image":"027.jpeg","audio":"027.m4a"},
             {"image":"028.jpeg","audio":"028.m4a"},
             {"audio":"029.m4a"}
-        ]
-    },
-    {
-        "title":"Oh The Places You'll Go",
-        "slug":"oh_the_places_youll_go",
-        "cover":"cover.jpeg",
-        "pages": [
-            {"image":"001.jpeg","audio":"001.m4a"},
-            {"image":"002.jpeg","audio":"002.m4a"},
-            {"image":"003.jpeg","audio":"003.m4a"},
-            {"image":"004.jpeg","audio":"004.m4a"},
-            {"image":"005.jpeg","audio":"005.m4a"},
-            {"image":"006.jpeg","audio":"006.m4a"},
-            {"image":"007.jpeg","audio":"007.m4a"},
-            {"image":"008.jpeg","audio":"008.m4a"},
-            {"image":"009.jpeg","audio":"009.m4a"},
-            {"image":"010.jpeg","audio":"010.m4a"},
-            {"image":"011.jpeg","audio":"011.m4a"},
-            {"image":"012.jpeg","audio":"012.m4a"},
-            {"image":"013.jpeg","audio":"013.m4a"},
-            {"image":"014.jpeg","audio":"014.m4a"},
-            {"image":"015.jpeg","audio":"015.m4a"},
-            {"image":"016.jpeg","audio":"016.m4a"},
-            {"image":"017.jpeg","audio":"017.m4a"},
-            {"image":"018.jpeg","audio":"018.m4a"},
-            {"image":"019.jpeg","audio":"019.m4a"},
-            {"image":"020.jpeg","audio":"020.m4a"},
-            {"image":"021.jpeg","audio":"021.m4a"},
-            {"image":"022.jpeg","audio":"022.m4a"},
-            {"image":"023.jpeg","audio":"023.m4a"}
         ]
     },
     {
