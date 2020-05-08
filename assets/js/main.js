@@ -1,6 +1,9 @@
 document.ontouchmove = function(event){
     event.preventDefault();
 }
+window.config = {
+    'audio':"Enabled",
+}
 window.state = {};
 window.tocca({
     "tapThreshold": 500,
@@ -9,15 +12,15 @@ window.tocca({
 
 draw_main = function() {
     window.audio.pause();
-    $('body').html(mustache(main_template,{"books":window.books}))
+    $('body').html(gform.m(main_template,{"books":window.books}))
 }
 draw_book = function() {
     $('#turn-page-forward').css("color","#ddd");
-    $('body').html(mustache(book_template,{
+    $('body').html(gform.m(book_template,{
         "page":window.state.book.pages[state.index],
         "book":window.state.book
     }))
-    if (typeof window.state.book.pages[state.index].audio != 'undefined') {
+    if (window.config.audio === 'Enabled' && typeof window.state.book.pages[state.index].audio != 'undefined') {
         window.audio.src = "assets/books/"+window.state.book.slug+"/audio/"+window.state.book.pages[state.index].audio;
         window.audio.play();
     } else {
@@ -67,4 +70,23 @@ $( document ).ready(function() {
         $('body').on('mousedown','#turn-page-back',turn_page_back);
         $('body').on('mousedown','#exit-to-main',draw_main);
     }
+
+    new gform(
+        {"fields":[
+            {
+                "name":"audio",
+                "label":"Enable Audio",
+                "type":"select",
+                "options": ["Enabled","Disabled"],
+                "help": "Enable or Disable Pre-Recorded Audio"
+            }
+        ],
+        "title":"Configure Settings",
+        "actions":[
+            {"type":"save"}
+        ]}
+    ).modal().on('save',function(form_event) {
+        window.config = form_event.form.get()
+        form_event.form.trigger('close');
+    });
 });
