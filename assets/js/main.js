@@ -57,7 +57,9 @@ $( document ).ready(function() {
     if ('ontouchstart' in document.documentElement) {
         $('body').on('tap','.book',init_book);
         $('body').on('tap','#turn-page-forward',turn_page_forward);
+        $('body').on('swipeleft',turn_page_forward);
         $('body').on('tap','#turn-page-back',turn_page_back);
+        $('body').on('swiperight',turn_page_back);
         $('body').on('tap','#exit-to-main',draw_main);
     } else {
         $('body').on('mousedown','.book',init_book);
